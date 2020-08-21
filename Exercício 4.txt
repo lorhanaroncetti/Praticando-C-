@@ -1,0 +1,28 @@
+https://repl.it/@lorhana/exercicio-4#main.cs
+
+
+using System;
+
+class MainClass {
+  public static void Main () {
+    double N1, N2, N3, N4, media;
+
+
+    Console.Write ("Informe sua nota 1>> ");
+    N1 = double.Parse(Console.ReadLine());
+
+    Console.Write ("Informe sua nota 2>> ");
+    N2 = double.Parse(Console.ReadLine());
+
+    Console.Write ("Informe sua nota 3>> ");
+    N3 = double.Parse(Console.ReadLine());
+
+    Console.Write ("Informe sua nota 4>> ");
+    N4 = double.Parse(Console.ReadLine());
+
+
+    media = (N1+N2+N3+N4)/4;
+
+    Console.WriteLine ("A média de suas notas equivale a: " + media);
+  }
+}

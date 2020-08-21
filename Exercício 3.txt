@@ -1,0 +1,24 @@
+https://repl.it/@lorhana/exercicio-3#main.cs
+
+
+using System;
+
+class MainClass {
+  public static void Main () {
+    double numero1, numero2, soma;
+
+
+    Console.Write ("Digite um número >> ");
+    numero1 = double.Parse(Console.ReadLine());
+
+    Console.Write ("Digite novamene um número >> ");
+    numero2 = double.Parse(Console.ReadLine());
+
+    soma = numero1 + numero2;
+
+    Console.WriteLine ("A soma dos números que digitou equivale a: " +soma);
+
+
+  }
+
+}
